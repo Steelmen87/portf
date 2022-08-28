@@ -1,0 +1,23 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #fae29d;
+}
+.mainBlock_container{
+
+}
+
+.text {
+    width: 300px;
+    background-color: #e3e2e2;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #e3e2e2;
+}
+@media (max-width: 753px) {
+    .mainBlock_container {
+        justify-content: center
+    }
+}
