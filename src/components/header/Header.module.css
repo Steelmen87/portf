@@ -5,9 +5,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 .headerContainer{
     justify-content: flex-end;
+    box-sizing: border-box;
 }
 @media (max-width: 753px) {
     .headerContainer {

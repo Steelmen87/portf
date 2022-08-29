@@ -20,6 +20,12 @@ const Skills = () => {
                     <Skill
                         title={'React'}
                         description={'Ab, cons agnam modi nam possimus quasi repellendus repudiandae voluptates?'}
+                    /><Skill
+                        title={'React-Router-Dom'}
+                        description={'Ab, cons agnam modi nam possimus quasi repellendus repudiandae voluptates?'}
+                    /><Skill
+                        title={'Redux'}
+                        description={'Ab, cons agnam modi nam possimus quasi repellendus repudiandae voluptates?'}
                     />
                 </div>
             </div>

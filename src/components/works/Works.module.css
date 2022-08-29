@@ -1,9 +1,9 @@
-.skillsBlock {
+.worksBlock {
     min-height: 100vh;
-    background-color: #9eeee1;
+    background-color: #f5efe7;
 }
 
-.skillsContainer {
+.worksContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,21 +14,23 @@
     background-color: #f3f1f1;
 }
 
-.skills {
+.works {
     box-sizing: border-box;
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
-
 @media (max-width: 768px) {
-    .skills {
-        justify-content: center
+    .works {
+        justify-content: center;
+
     }
-    .skills div:nth-last-child(n+2) {
+    .works div:nth-last-child(n+2) {
         margin-bottom: 3px;
     }
+
 }

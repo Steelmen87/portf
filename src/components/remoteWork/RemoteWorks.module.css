@@ -1,0 +1,33 @@
+.remoteBlock {
+    height: 20vh;
+    background-color: #cf83d4;
+}
+
+.remoteContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.remoteContainer h2 {
+    margin: 20px;
+}
+
+.title {
+    background-color: #f3f1f1;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .remoteBlock {
+        height: 40vh;
+    }
+    .remoteContainer h2 {
+        margin: 30px;
+    }
+    .remoteContainer {
+        justify-content: space-around;
+    }
+}
