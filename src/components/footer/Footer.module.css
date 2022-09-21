@@ -1,6 +1,6 @@
 .footerBlock {
     height: 20vh;
-    background-color: #f1b96f;
+   /* background-color: #f1b96f;*/
 }
 
 .footerContainer {
@@ -22,4 +22,9 @@
     display: flex;
     justify-content: space-between;
     width: 200px;
+}
+@media (max-width: 414px) {
+    .title{
+        font-size: 20px;
+    }
 }

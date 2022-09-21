@@ -2,12 +2,13 @@ import React from 'react';
 import s from "./Works.module.css"
 import style from "../common/styles/Container.module.css"
 import Work from "./work/Work";
+import Inscription from "../../temp/Inscription";
 
 const Works = () => {
     return (
         <div className={s.worksBlock}>
             <div className={`${style.container} ${s.worksContainer}`}>
-                <h2 className={s.title}>Works</h2>
+                <Inscription firstWord={'my'}highlightedWord={'work'} titleBG={'projects'}/>
                 <div className={s.works}>
                     <Work
                         img={'https://avatars.mds.yandex.net/i?id=315192c3cd00428d13c616efaf5d6aef-5235680-images-thumbs&n=13'}

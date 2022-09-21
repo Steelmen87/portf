@@ -7,6 +7,8 @@ import Works from "./components/works/Works";
 import RemoteWork from "./components/remoteWork/RemoteWork";
 import Contacts from './components/contacts/Contacts';
 import Footer from "./components/footer/Footer";
+import Inscription from "./temp/Inscription";
+import Title from "./temp/title/Title";
 
 
 function App() {

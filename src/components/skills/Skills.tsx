@@ -2,12 +2,13 @@ import React from 'react';
 import s from "./Skills.module.css"
 import style from "../common/styles/Container.module.css"
 import Skill from "./skill/Skill";
+import Inscription from "../../temp/Inscription";
 
 const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${style.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+                <Inscription firstWord={'my'}highlightedWord={'hard'} titleBG={'Skills'}/>
                 <div className={s.skills}>
                     <Skill
                         title={'Css'}
